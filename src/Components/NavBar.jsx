@@ -27,11 +27,8 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand>
-<<<<<<< HEAD
-            {/* <img src={logo} alt="Logo" /> */}
-=======
+
             <img id="logo" src={logo} alt="Logo" />
->>>>>>> c109ff2de215ffaa7678c91ff79310ba1481e958
             <h4 className="text-light">SSBT's Coding Club</h4>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
