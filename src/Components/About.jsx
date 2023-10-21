@@ -7,7 +7,6 @@ const About = () => {
   return (
     <>
     <NavBar />
-    <AboutBanner />
     <AboutCard />
     </>
   )

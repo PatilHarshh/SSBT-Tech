@@ -8,7 +8,6 @@ const Blogs = () => {
   return (
     <>
       <NavBar />
-      <BlogBanner />
       <BlogCard />
     </>
   )

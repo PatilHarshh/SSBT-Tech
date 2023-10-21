@@ -2,6 +2,8 @@ import React from "react";
 import {NavBar} from './NavBar'
 import { Banner } from "./Banner";
 import Parallax from "./Parallax";
+import { Contact } from "./Contact";
+import { Footer } from "./Footer";
 
 function Home() {
   return (
@@ -9,8 +11,8 @@ function Home() {
       <NavBar/>
       <Banner/>
       <Parallax/>
-      <Banner/>
-
+      <Contact/>
+      <Footer/>
 
     </div>
   );
