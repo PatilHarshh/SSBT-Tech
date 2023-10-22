@@ -38,7 +38,7 @@ export const NavBar = () => {
           <Nav className="ms-auto">
             <Nav.Link as={HashLink} to='/' className="navbar-link">Home</Nav.Link>
             <Nav.Link as={HashLink} to='/events' className="navbar-link">Events</Nav.Link>
-            <Nav.Link as={HashLink} to='/about' className="navbar-link">About</Nav.Link>
+            <Nav.Link as={HashLink} to='/team' className="navbar-link">Team</Nav.Link>
             <Nav.Link as={HashLink} to='/blogs' className="navbar-link">Blogs</Nav.Link>
           </Nav>
           <span className="navbar-text">

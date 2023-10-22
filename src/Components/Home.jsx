@@ -4,6 +4,7 @@ import { Banner } from "./Banner";
 import Parallax from "./Parallax";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
+import About from "./About";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <NavBar/>
       <Banner/>
       <Parallax/>
+      <About/>
       <Contact/>
       <Footer/>
 
