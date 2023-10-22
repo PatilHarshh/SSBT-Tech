@@ -1,9 +1,12 @@
 import React from 'react'
+import {NavBar} from './NavBar'
+
 
 const Event = () => {
   return (
-    <div>This is Event page
-      
+    <div>
+    <NavBar/>
+
     </div>
   )
 }

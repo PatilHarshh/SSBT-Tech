@@ -1,0 +1,284 @@
+:root {
+  --global-font-family: "Roboto", Helvetica, Arial, sans-serif;
+  --global-button_color_pink-background-color: #e53167;
+  --global-button_color-color: #ffffff;
+  --global-blue_color-color: #3480e3;
+  --global-name_color-color: #657783;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: var(--global-font-family);
+  margin-top: 8rem;
+}
+
+footer {
+  background-color: var(--global-blue_color-color);
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.2%;
+  font-size: small;
+}
+
+.row-me {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: white;
+  background-color: black;
+  padding: 4px;
+  border-radius: 15px;
+  border: 2px white solid;
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  margin-top: 3%;
+}
+
+.sub-heading {
+  color: var(--global-blue_color-color) !important;
+  font-size: 35px !important;
+  font-weight: 500;
+  letter-spacing: 0.004em !important;
+}
+
+#intro p {
+  font-size: 15px;
+  letter-spacing: 0.07em;
+  color: var(--global-name_color-color);
+}
+.wrapper {
+  background: url("../assets/img/bgvideo.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#team {
+  text-align: center;
+}
+
+.team-wrapper {
+  background: rgba(0, 0, 0, 0.326); /* Transparent black background */
+  /* Other background properties remain the same */
+  background-size: cover;
+}
+.team-wrapper {
+  margin: 5%;
+  box-shadow: 0 0 10px 0.2px #3480e3;
+  border-radius: 25px;
+}
+
+.team-wrapper .row-me {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.dp {
+  width: 200px;
+  height: 210px;
+  margin: auto;
+}
+
+.dp img {
+  border-radius: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+#brief {
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  color: white;
+}
+
+#name {
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+
+#designation {
+  font-weight: 300;
+}
+
+.wrapper {
+  overflow: hidden;
+  /* background-image: url(../media/images_homepage/home.svg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inner-wrapper {
+  padding-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+/*navbar*/
+
+#navbar-content {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 10px;
+}
+
+#cclogoright {
+  color: var(--global-blue_color-color);
+  opacity: 82%;
+  font-size: 28px;
+  letter-spacing: 0.07em;
+}
+
+/*nav*/
+
+/*button*/
+
+button {
+  border-width: 0px;
+}
+
+#button1 {
+  border-radius: 20px;
+  background-color: var(--global-button_color_pink-background-color);
+  color: var(--global-button_color-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 18px;
+}
+#button2 {
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: grey;
+  text-align: center;
+  width: wrap-content;
+  padding: 6px 3px;
+}
+
+#button3 {
+  border-radius: 20px;
+  background-color: white;
+  color: var(--global-button_color_pink-background-color);
+  text-align: center;
+  width: wrap-content;
+  padding: 5px 20px;
+  box-shadow: 0 0 3px 1px var(--global-button_color_pink-background-color);
+}
+
+/*button end*/
+
+#space {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+#font18 {
+  font-size: 18px;
+}
+
+#font20 {
+  font-size: 20px;
+}
+
+@media (max-width: 430px) {
+  .dp {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 25%;
+  }
+}
+
+@media (max-width: 435px) {
+  .inner-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.table-bordered {
+  border: 0px;
+  margin-left: 10px;
+}
+
+.table-bordered td {
+  border: 2px solid grey;
+  padding-left: 35px;
+}
+
+.activeyear {
+  border-top: 0px;
+  color: grey;
+}
+
+#one {
+  margin-left: 10px;
+  font-size: 30px;
+  padding-bottom: 30px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+#two {
+  margin-left: 10px;
+  padding-top: 10px;
+  border-right: 0px;
+  text-align: right;
+}
+
+/*  */
+@media (max-width: 768px) {
+  body {
+    margin-top: 4rem;
+  }
+  #brief {
+    text-align: center;
+    margin-left: 50%;
+  }
+
+  .heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .sub-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .dp {
+    width: 150px;
+    height: 150px;
+    margin: 25%;
+  }
+}
+
+/* For screens with a maximum width of 576px */
+@media (max-width: 576px) {
+  body {
+    margin-top: 8rem;
+  }
+
+  .dp {
+    width: 100%;
+    height: auto;
+  }
+
+  .inner-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

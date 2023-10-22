@@ -46,6 +46,7 @@ export function BlogCard() {
                 </article>
             </div>
         </section>
-
+        
     );
+   
 }
