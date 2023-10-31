@@ -9,6 +9,7 @@ import Home from "./Components/Home";
 import Events from "./Components/Event";
 import Blogs from "./Components/Blogs";
 import Team from "./Components/Team";
+import ErrorPage from "./Components/ErrorPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/team" element={<Team/>} />
         <Route path="/events" element={<Events />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/*" element={<ErrorPage/>} />
       </Routes>
     </BrowserRouter>
     </div>
