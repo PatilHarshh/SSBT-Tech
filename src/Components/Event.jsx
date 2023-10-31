@@ -6,7 +6,7 @@ const Event = () => {
   return (
     <div>
     <NavBar/>
-
+      No Events found!!
     </div>
   )
 }
